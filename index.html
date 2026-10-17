@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Portfolio of Riduanul Abedin Shihab — Computer Science student and Flutter developer building useful digital products.">
+  <title>Riduanul Abedin Shihab | Flutter Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{color-scheme:dark;--bg:#090d18;--panel:#101727;--panel2:#141e31;--text:#eef3ff;--muted:#a1adc3;--line:rgba(173,193,229,.16);--accent:#8b9cff;--mint:#78f0cf;--shadow:0 24px 80px rgba(0,0,0,.24)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:radial-gradient(ellipse at 78% 2%,rgba(93,113,255,.16),transparent 32rem),radial-gradient(ellipse at 2% 32%,rgba(63,219,185,.08),transparent 30rem),var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.65}a{color:inherit;text-decoration:none}button,a{-webkit-tap-highlight-color:transparent}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}.nav{position:sticky;top:0;z-index:10;background:rgba(9,13,24,.78);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.nav-inner{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-family:"Space Grotesk",sans-serif;font-weight:700;letter-spacing:-.05em;font-size:1.18rem}.brand span{color:var(--mint)}.links{display:flex;align-items:center;gap:27px;color:var(--muted);font-size:.92rem}.links a:hover{color:var(--text)}.links .nav-cta{color:var(--bg);background:var(--mint);padding:10px 15px;border-radius:999px;font-weight:700}.menu{display:none;background:transparent;border:1px solid var(--line);color:var(--text);border-radius:10px;padding:8px 12px;font-size:1.2rem}.hero{padding:104px 0 92px;display:grid;grid-template-columns:1.35fr .65fr;gap:50px;align-items:center;min-height:570px}.eyebrow{display:inline-flex;gap:9px;align-items:center;color:var(--mint);font-size:.82rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase}.dot{width:8px;height:8px;background:var(--mint);border-radius:50%;box-shadow:0 0 16px var(--mint)}h1,h2,h3,p{margin-top:0}h1,h2,h3{font-family:"Space Grotesk",sans-serif;line-height:1.12;letter-spacing:-.045em}h1{font-size:clamp(2.8rem,6vw,5.25rem);margin:22px 0}.gradient{background:linear-gradient(100deg,#fff 4%,#b7c1ff 52%,#78f0cf 100%);-webkit-background-clip:text;background-clip:text;color:transparent}.hero-copy{max-width:640px;color:var(--muted);font-size:1.12rem}.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 19px;border-radius:12px;border:1px solid var(--line);font-weight:700;transition:transform .2s,border-color .2s}.btn:hover{transform:translateY(-2px);border-color:var(--mint)}.btn-primary{background:var(--mint);color:#07131a;border-color:var(--mint)}.hero-card{position:relative;justify-self:center;width:min(100%,310px);aspect-ratio:4/5;border:1px solid rgba(180,197,255,.24);border-radius:28px;background:linear-gradient(145deg,rgba(139,156,255,.17),rgba(120,240,207,.06));padding:13px;box-shadow:var(--shadow);transform:rotate(2deg)}.portrait{height:100%;border-radius:19px;overflow:hidden;background:linear-gradient(145deg,#202c47,#111827);display:flex;align-items:center;justify-content:center}.portrait img{width:100%;height:100%;object-fit:cover}.floating{position:absolute;left:-32px;bottom:30px;transform:rotate(-2deg);padding:13px 16px;border:1px solid var(--line);background:#111a2b;border-radius:14px;box-shadow:var(--shadow);font-size:.86rem}.floating strong{display:block;color:var(--mint)}section{padding:76px 0}.section-head{max-width:660px;margin-bottom:30px}.kicker{font-size:.78rem;color:var(--mint);font-weight:700;letter-spacing:.13em;text-transform:uppercase}.section-head h2{font-size:clamp(2rem,4vw,3rem);margin:10px 0 13px}.section-head p{color:var(--muted)}.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:24px}.panel{background:linear-gradient(145deg,rgba(20,30,49,.94),rgba(14,21,35,.9));border:1px solid var(--line);border-radius:20px;padding:27px}.panel p{color:var(--muted);margin-bottom:0}.facts{display:grid;grid-template-columns:1fr 1fr;gap:12px}.fact{padding:18px;border-radius:14px;background:rgba(255,255,255,.025);border:1px solid var(--line)}.fact b{display:block;font-family:"Space Grotesk",sans-serif;font-size:1.04rem}.fact span{font-size:.85rem;color:var(--muted)}.skills{display:flex;flex-wrap:wrap;gap:10px}.skill{border:1px solid var(--line);background:rgba(255,255,255,.035);padding:9px 13px;border-radius:999px;color:#d8e0f2;font-size:.92rem}.project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}.project{padding:25px;display:flex;flex-direction:column;min-height:240px;transition:transform .2s,border-color .2s}.project:hover{transform:translateY(-4px);border-color:rgba(120,240,207,.5)}.project-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}.project-icon{width:43px;height:43px;border-radius:13px;background:rgba(139,156,255,.14);display:grid;place-items:center;font-size:1.25rem}.tag{font-size:.75rem;color:var(--mint);border:1px solid rgba(120,240,207,.25);padding:4px 9px;border-radius:999px}.project h3{font-size:1.35rem;margin-bottom:10px}.project p{color:var(--muted);font-size:.95rem;flex:1}.project-link{font-weight:700;font-size:.9rem;color:var(--mint);margin-top:16px}.project-link span{display:inline-block;transition:transform .2s}.project-link:hover span{transform:translateX(4px)}.note{font-size:.85rem;color:var(--muted);margin-top:16px}.journey{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.journey .panel{padding:23px}.journey .symbol{font-size:1.35rem}.journey h3{font-size:1.12rem;margin:13px 0 8px}.journey p{font-size:.92rem}.contact{padding:34px;display:flex;justify-content:space-between;align-items:center;gap:24px;background:radial-gradient(ellipse at 100% 0,rgba(139,156,255,.17),transparent 55%),var(--panel);border:1px solid var(--line);border-radius:24px}.contact h2{font-size:clamp(1.8rem,4vw,2.7rem);margin:8px 0 12px}.contact p{color:var(--muted);margin:0}.footer{padding:30px 0 40px;color:var(--muted);font-size:.85rem}.footer-inner{display:flex;justify-content:space-between;gap:20px;border-top:1px solid var(--line);padding-top:24px}.footer a{color:var(--text)}.reveal{animation:rise .7s both}@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}:focus-visible{outline:2px solid var(--mint);outline-offset:4px}
+    @media(max-width:760px){.wrap{width:min(100% - 30px,560px)}.nav-inner{height:68px}.menu{display:block}.links{display:none;position:absolute;top:68px;left:0;right:0;padding:18px 22px 22px;background:#0d1322;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:16px}.links.open{display:flex}.links .nav-cta{text-align:center}.hero{padding:65px 0 50px;grid-template-columns:1fr;gap:38px;min-height:0}.hero-card{width:225px;justify-self:center}.floating{left:-22px}.hero-copy{font-size:1rem}section{padding:55px 0}.about-grid,.project-grid{grid-template-columns:1fr}.journey{grid-template-columns:1fr}.contact{align-items:flex-start;flex-direction:column;padding:25px}.footer-inner{flex-direction:column;gap:8px}.section-head{margin-bottom:23px}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <nav class="wrap nav-inner" aria-label="Main navigation">
+      <a class="brand" href="#home">shihab<span>.</span></a>
+      <button class="menu" id="menuButton" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#journey">Focus</a><a class="nav-cta" href="#contact">Let's talk ↗</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="wrap hero" id="home">
+      <div class="reveal">
+        <div class="eyebrow"><span class="dot"></span> Available for learning & collaboration</div>
+        <h1>Hi, I'm <span class="gradient">Riduanul<br>Abedin Shihab.</span></h1>
+        <p class="hero-copy">A Computer Science student and Flutter developer who enjoys turning ideas into thoughtful, useful digital experiences. I build, learn, and improve one project at a time.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="btn" href="mailto:riduanshihab00@gmail.com">Contact me <span>↗</span></a>
+        </div>
+      </div>
+      <div class="hero-card reveal" aria-label="GitHub profile portrait">
+        <div class="portrait"><img src="https://avatars.githubusercontent.com/u/194102126?v=4" alt="Riduanul Abedin Shihab's profile picture" loading="eager"></div>
+        <div class="floating"><strong>Curiosity → Code</strong><span>Always building something</span></div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <div class="section-head"><span class="kicker">A little about me</span><h2>Building with purpose.<br><span class="gradient">Learning by doing.</span></h2><p>I’m interested in creating software that solves real problems, with a special focus on mobile apps and practical product development.</p></div>
+        <div class="about-grid">
+          <article class="panel"><h3>My approach</h3><p>I enjoy exploring an idea, breaking it into manageable pieces, and building an experience that feels clear and easy to use. Along the way, I keep learning about application architecture, backend integration, and better development practices.</p></article>
+          <div class="facts">
+            <div class="fact"><b>📱 Mobile</b><span>Flutter & Dart</span></div>
+            <div class="fact"><b>🎓 Education</b><span>Computer Science</span></div>
+            <div class="fact"><b>🧠 Mindset</b><span>Continuous learning</span></div>
+            <div class="fact"><b>🤝 Community</b><span>Open to collaboration</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="wrap">
+        <div class="section-head"><span class="kicker">Tools I work with</span><h2>My toolkit</h2><p>Technologies represented across my projects and learning. I’m continuing to grow this toolkit as I build.</p></div>
+        <div class="panel skills">
+          <span class="skill">Flutter</span><span class="skill">Dart</span><span class="skill">Java</span><span class="skill">PHP</span><span class="skill">Laravel</span><span class="skill">JavaScript</span><span class="skill">HTML & CSS</span><span class="skill">MySQL</span><span class="skill">Firebase</span><span class="skill">Supabase</span><span class="skill">Git</span><span class="skill">GitHub</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="wrap">
+        <div class="section-head"><span class="kicker">Selected work</span><h2>Projects I'm exploring</h2><p>A selection of projects from my GitHub. Open a repository to explore its code and current implementation.</p></div>
+        <div class="project-grid">
+          <article class="panel project"><div class="project-top"><span class="project-icon">🏥</span><span class="tag">Laravel · JavaScript</span></div><h3>PUC-Madic</h3><p>A hospital management system project focused on organizing doctor, patient, and appointment workflows.</p><a class="project-link" href="https://github.com/riduanShihab/PUC-Madic" target="_blank" rel="noreferrer">Explore repository <span>→</span></a></article>
+          <article class="panel project"><div class="project-top"><span class="project-icon">🛍️</span><span class="tag">E-commerce</span></div><h3>PUC E-commerce</h3><p>An e-commerce application project exploring online shopping experiences and application functionality.</p><a class="project-link" href="https://github.com/riduanShihab/PUC-E-commerce" target="_blank" rel="noreferrer">Explore repository <span>→</span></a></article>
+          <article class="panel project"><div class="project-top"><span class="project-icon">🍲</span><span class="tag">Flutter · Dart</span></div><h3>Recipe App</h3><p>A Dart-based recipe application project and part of my mobile development journey.</p><a class="project-link" href="https://github.com/riduanShihab/Recipe_App" target="_blank" rel="noreferrer">Explore repository <span>→</span></a></article>
+          <article class="panel project"><div class="project-top"><span class="project-icon">🩺</span><span class="tag">Application project</span></div><h3>National Hospital</h3><p>A hospital-focused application project. Visit the repository for its current code and implementation details.</p><a class="project-link" href="https://github.com/riduanShihab/National_hospital_chattogram" target="_blank" rel="noreferrer">Explore repository <span>→</span></a></article>
+          <article class="panel project"><div class="project-top"><span class="project-icon">📚</span><span class="tag">Data engineering</span></div><h3>Student Academic Performance</h3><p>An academic project exploring student performance analysis with Hadoop-related technologies.</p><a class="project-link" href="https://github.com/riduanShihab/Student_Academic_Performance_Hadoop_Project" target="_blank" rel="noreferrer">Explore repository <span>→</span></a></article>
+          <article class="panel project"><div class="project-top"><span class="project-icon">💻</span><span class="tag">More on GitHub</span></div><h3>More experiments</h3><p>Small apps, coursework, and other projects that help me practice software development and learn new concepts.</p><a class="project-link" href="https://github.com/riduanShihab?tab=repositories" target="_blank" rel="noreferrer">Browse all repositories <span>→</span></a></article>
+        </div>
+        <p class="note">Project summaries are brief descriptions; check each repository for its current status, features, and technology details.</p>
+      </div>
+    </section>
+
+    <section id="journey">
+      <div class="wrap">
+        <div class="section-head"><span class="kicker">What drives me</span><h2>Always moving forward</h2></div>
+        <div class="journey">
+          <article class="panel"><span class="symbol">🧩</span><h3>Solve real problems</h3><p>Build practical applications with clear user experiences and maintainable code.</p></article>
+          <article class="panel"><span class="symbol">🌱</span><h3>Keep learning</h3><p>Strengthen my fundamentals and explore tools that make me a better developer.</p></article>
+          <article class="panel"><span class="symbol">🚀</span><h3>Build together</h3><p>Learn through collaboration, feedback, and sharing what I create.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap contact">
+        <div><span class="kicker">Have an idea?</span><h2>Let's build something useful.</h2><p>Reach out about a project, collaboration, or just to connect.</p></div>
+        <a class="btn btn-primary" href="mailto:riduanshihab00@gmail.com">✉ Email me <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer"><div class="footer-inner"><span>© <span id="year"></span> Riduanul Abedin Shihab</span><span><a href="https://github.com/riduanShihab" target="_blank" rel="noreferrer">GitHub</a> · <a href="mailto:riduanshihab00@gmail.com">Email</a> · Built with care.</span></div></footer>
+  <script>
+    const menuButton = document.getElementById('menuButton');
+    const navLinks = document.getElementById('navLinks');
+    menuButton.addEventListener('click', () => {
+      const isOpen = navLinks.classList.toggle('open');
+      menuButton.setAttribute('aria-expanded', String(isOpen));
+      menuButton.setAttribute('aria-label', isOpen ? 'Close navigation' : 'Open navigation');
+      menuButton.textContent = isOpen ? '✕' : '☰';
+    });
+    navLinks.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      menuButton.setAttribute('aria-expanded', 'false');
+      menuButton.setAttribute('aria-label', 'Open navigation');
+      menuButton.textContent = '☰';
+    }));
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
